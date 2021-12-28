@@ -5,12 +5,16 @@ const allPage = keyframes`
         height:0px;
     }
     to{
-        height:100vh;
+        height:20vh;
     }
 `;
 
 export const HeaderContainer = styled.header`
     @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rock+Salt&display=swap");
+
+    position:fixed;
+    top:0;
+    left:0;
 
     display: flex;
     flex-direction: row;
@@ -41,8 +45,6 @@ export const HeaderContainer = styled.header`
         display: none;
         align-items: center;
         justify-content: center;
-
-        position: relative;
 
         animation: ${allPage} 0.5s forwards;
 

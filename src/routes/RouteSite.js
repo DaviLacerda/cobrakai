@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import pages
 import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
 
 function RouteSite() {
     return (
@@ -9,7 +10,7 @@ function RouteSite() {
             <Routes>
                 <Route path='*' element={<Home/>}></Route>
                 <Route path='/characters'></Route>
-                <Route path='/about'></Route>
+                <Route path='/about' element={<About/>}></Route>
             </Routes>
         </Router>
     )

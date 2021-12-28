@@ -31,7 +31,7 @@ function Header() {
 
             <nav className='menu'>
                 <ul>
-                    <Link to='*'>
+                    <Link to='/'>
                         <li>Home</li>
                     </Link>
 
@@ -48,7 +48,7 @@ function Header() {
 
             <nav className='menu__toggle'>
                 <ul>
-                    <Link to='*'>
+                    <Link to='/'>
                         <li>Home</li>
                     </Link>
 
