@@ -3,14 +3,14 @@ import Header from "../../components/Header/Header"
 import Card from "../../components/Card/Card"
 
 //import images
-import DanielLarusso from '../../assets/daniel_larusso.jpg'
-import JohnnyLawrence from '../../assets/johnny_lawrence.jpg'
-import JohnKreese from '../../assets/john_kreese.jpg'
-import MiguelDiaz from '../../assets/miguel_diaz.png'
-import SamanthaLarusso from '../../assets/samantha_larusso.jpg'
-import RobbyKeene from '../../assets/robby_keene.jpg'
-import ToryNichols from '../../assets/tory_nichols.jpg'
-import Hawk from '../../assets/hawk.jpg'
+import DanielLarusso from '../../assets/characters/daniel_larusso.jpg'
+import JohnnyLawrence from '../../assets/characters/johnny_lawrence.jpg'
+import JohnKreese from '../../assets/characters/john_kreese.jpg'
+import MiguelDiaz from '../../assets/characters/miguel_diaz.png'
+import SamanthaLarusso from '../../assets/characters/samantha_larusso.jpg'
+import RobbyKeene from '../../assets/characters/robby_keene.jpg'
+import ToryNichols from '../../assets/characters/tory_nichols.jpg'
+import Hawk from '../../assets/characters/hawk.jpg'
 
 function Characters() {
     return (
