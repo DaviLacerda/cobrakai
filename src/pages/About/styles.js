@@ -23,7 +23,9 @@ export const AboutContainer = styled.div`
         gap:10px;
 
         width:100%;
-        max-width:40vw;
+        max-width:720px;
+
+        padding:16px;
 
         font-family:'Montserrat', sans-serif;
         letter-spacing:.1em;

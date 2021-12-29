@@ -28,6 +28,10 @@ export const HeaderContainer = styled.header`
     background-color: #ff2100;
     color: #fff600;
 
+    @media(max-width:300px){
+        flex-direction:column;
+    }
+
     h1 {
         font-family: "Rock Salt", cursive;
         width: fit-content;
